@@ -23,6 +23,7 @@ USE App\Http\Controllers\NewsController;
 // });
 
 Route::get('/', [NewsController::class, 'index']);
+Route::get('/cms', [UserController::class, 'index']);
 
 Route::get('login', [UserController::class, 'index'])->name('login');
 Route::post('login', [UserController::class, 'login']);

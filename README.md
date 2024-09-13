@@ -64,3 +64,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+<!-- steps for setup the project -->
+
+step-1 : Use this in terminal (https://github.com/suryavilluri/news.git)
+
+step-2 : create database in your local and import the database. That file is located in root directory news.sql
+
+step-3 : main url is http://localhost/project-name
+
+step-4 : manage the news for editors. Url is http://localhost/example/cms
+
+        credentials 
+        username : surya
+        password : 1234567890
+
+step-5 : There is 2 modules one is category and content modules
